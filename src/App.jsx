@@ -33,8 +33,9 @@ const App = () => {
     <div className="app">
       {/* Video Background */}
       <video autoPlay loop muted className="bg-video">
-      <source src="/weather-bg.mp4" type="video/mp4" />
+      <source src="/weather-app/weather-bg.mp4" type="video/mp4" />
       </video>
+
 
 
 
