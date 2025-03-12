@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
-import weatherVideo from "./assets/weather-bg.mp4";
+
 
 
 const API_KEY = "849e8c883353766166c89acba9fcd9b2"; // Replace with your actual API key
@@ -33,8 +33,9 @@ const App = () => {
     <div className="app">
       {/* Video Background */}
       <video autoPlay loop muted className="bg-video">
-      <source src={weatherVideo} type="video/mp4" />
+      <source src="/weather-bg.mp4" type="video/mp4" />
       </video>
+
 
 
       {/* Weather Search Box */}
