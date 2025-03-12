@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
+import weatherVideo from "./assets/weather-bg.webm";
+
 
 const API_KEY = "849e8c883353766166c89acba9fcd9b2"; // Replace with your actual API key
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
@@ -31,9 +33,9 @@ const App = () => {
     <div className="app">
       {/* Video Background */}
       <video autoPlay loop muted className="bg-video">
-      <source src="/weather-bg.webm" type="video/webm" />
-
+      <source src={weatherVideo} type="video/webm" />
       </video>
+
 
       {/* Weather Search Box */}
       <div className="content">
