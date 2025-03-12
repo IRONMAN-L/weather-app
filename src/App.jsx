@@ -39,6 +39,7 @@ const App = () => {
 
 
 
+
       {/* Weather Search Box */}
       <div className="content">
         <h1>Weather</h1>
